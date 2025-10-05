@@ -89,7 +89,7 @@ This notebook demonstrates analytic expansions, a small annealing search, and Py
    
    Amplitudes $A_k$ are products of relevant edge weights and the fidelity can be computed on the $(A_1, A_2, A_3)$ vector.
 
-**Notes:** The notebook contains both the Gaussian simulation plan and a discrete perfect-matching toy model; it shows how to switch between objectives and how QUBO chooses edges for each modeling choice.
+
 
 ---
 
@@ -158,10 +158,7 @@ $$P \cdot \left(\sum_{i\in S} x_i - K\right)^2$$
   * $Q_{ii} = -\lambda \cdot \text{gain}_i$ where $\text{gain}_i = \text{F}(i\text{ on}) - \text{F}(\text{none})$
   * $Q_{ij} = -\lambda \cdot \text{synergy}_{ij}$ where $\text{synergy}_{ij} = \text{F}(i,j\text{ on}) - \text{F}(i\text{ on}) - \text{F}(j\text{ on})$
 
-**Scaling & solver choices.**
 
-* Small graphs: brute force or classical simulated annealing (the notebooks include a Metropolis SA)
-* Larger graphs: use `dimod` / D-Wave Ocean or hybrid solvers. The notebooks include export instructions for BQM format.
 
 ---
 
