@@ -7,7 +7,7 @@ This repository contains three Colab/Notebook implementations that demonstrate a
 * `notebooks/Linear_4_node_cluster.ipynb` — Linear 4-mode cluster / small cluster-state experiment (graph state target; Gaussian / perfect-matching variants included).
 * `notebooks/Star_shaped_photonic_network.ipynb` — Star-shaped repeater node (4 leaves); three distinct target states realized by different skeletons + continuous tuning.
 
-These notebooks are suitable for Google Colab (GPU recommended) and intended for demonstration / reproducibility for a research group.
+These notebooks are suitable for Google Colab (GPU recommended).
 
 ---
 
