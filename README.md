@@ -1,5 +1,3 @@
-# Optimization-of-Quantum-Optics-Experimental-Setups
-
 ## Photonic Graph Optimization
 
 **Short description.**  
