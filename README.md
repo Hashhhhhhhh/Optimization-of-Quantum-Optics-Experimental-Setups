@@ -104,13 +104,13 @@ This notebook demonstrates analytic expansions, a small annealing search, and Py
 
 **Three target states used (explicit):**
 
-* **T1** — *Pair-Bell style:* concentrate amplitude on matching $M_1 = (L0,L1) \& (L2,L3)$: target vector $\mathbf{t}_1 = (1,0,0)$
+* **T1** — *Pair-Bell style:* concentrate amplitude on matching $M_1 = (\text{L0},\text{L1})$ and $(\text{L2},\text{L3})$: target vector $\mathbf{t}_1 = (1,0,0)$
 * **T2** — *W-like superposition:* equal contributions of the three perfect matchings: $\mathbf{t}_2 = (1,1,1)/\sqrt{3}$
 * **T3** — *Two-match superposition:* mixture of $M_1$ and $M_3$: $\mathbf{t}_3 = (1,0,1)/\sqrt{2}$
 
 **How outputs are computed (single-pair):**
 
-* Edge complex weights $w_e = \kappa_e\sqrt{P_e}e^{i\varphi_e}$
+* Edge complex weights: $w_e = \kappa_e\sqrt{P_e}e^{i\varphi_e}$
 * Matching amplitudes: $A_1 = w_{01}w_{23}$, $A_2 = w_{02}w_{13}$, $A_3 = w_{03}w_{12}$
 * Fidelity to normalized target $\mathbf{t}$: 
 
