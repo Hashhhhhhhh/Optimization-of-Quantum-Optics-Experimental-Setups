@@ -18,10 +18,6 @@ These notebooks are suitable for Google Colab (GPU recommended) and intended for
 2. Precise experiment descriptions (initial & target states) for each notebook
 3. QUBO formulation — general recipe and specific choices used in the notebooks
 4. Continuous optimization — objective, gradients, parameterizations, and practical choices
-5. Implementation details (how to run, packages, outputs saved)
-6. Validation, caveats, and recommended next steps for lab readiness
-7. Reproducibility notes, files produced, and contact/license
-
 ---
 
 ## 1. Overview of the optimization pipeline
