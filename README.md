@@ -163,11 +163,6 @@ For small graphs: sample a few continuous optimizations with/without a component
 * $Q_{ii} = -\lambda \cdot \text{gain}_i$ where $\text{gain}_i = \text{F}(i\text{ on}) - \text{F}(\text{none})$
 * $Q_{ij} = -\lambda \cdot \text{synergy}_{ij}$ where $\text{synergy}_{ij} = \text{F}(i,j\text{ on}) - \text{F}(i\text{ on}) - \text{F}(j\text{ on})$
 
-### Scaling & solver choices
-
-* **Small graphs**: brute force or classical simulated annealing (the notebooks include a Metropolis SA)
-* **Larger graphs**: use `dimod` / D-Wave Ocean or hybrid solvers. The notebooks include export instructions for BQM format.
-
 ---
 
 ## 4. Continuous optimization — objective & gradients
