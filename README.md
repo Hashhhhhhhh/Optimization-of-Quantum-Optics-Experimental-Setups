@@ -4,9 +4,9 @@
 **Short description.**
 This repository contains three Colab/Notebook implementations that demonstrate a *hybrid discrete+continuous* optimization pipeline for designing small photonic experiments using graph representations. The discrete structure (which pair sources / beam splitters to include) is chosen via a **QUBO** formulation and a classical annealer; the continuous knobs (pump amplitudes, source/mode phases, and beam-splitter angles) are tuned with **gradient-based optimization (autodiff)**. The three notebooks are:
 
-* `notebooks/triangle_photonic.ipynb` — Triangle (3-mode) SPDC network → W/GHZ-like post-selected states.
-* `notebooks/4mode_cluster.ipynb` — Linear 4-mode cluster / small cluster-state experiment (graph state target; Gaussian / perfect-matching variants included).
-* `notebooks/star_repeater.ipynb` — Star-shaped repeater node (4 leaves); three distinct target states realized by different skeletons + continuous tuning.
+* `notebooks/Triangle_GHz_like_photonic_states.ipynb.ipynb` — Triangle (3-mode) SPDC network → W/GHZ-like post-selected states.
+* `notebooks/Linear_4_node_cluster.ipynb` — Linear 4-mode cluster / small cluster-state experiment (graph state target; Gaussian / perfect-matching variants included).
+* `notebooks/Star_shaped_photonic_network.ipynb` — Star-shaped repeater node (4 leaves); three distinct target states realized by different skeletons + continuous tuning.
 
 These notebooks are suitable for Google Colab (GPU recommended) and intended for demonstration / reproducibility for a research group.
 
