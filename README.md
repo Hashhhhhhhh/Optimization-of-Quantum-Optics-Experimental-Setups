@@ -1,6 +1,5 @@
 # Optimization-of-Quantum-Optics-Experimental-Setups
 
-# Photonic Graph Optimization — README
 
 **Short description.**
 This repository contains three Colab/Notebook implementations that demonstrate a *hybrid discrete+continuous* optimization pipeline for designing small photonic experiments using graph representations. The discrete structure (which pair sources / beam splitters to include) is chosen via a **QUBO** formulation and a classical annealer; the continuous knobs (pump amplitudes, source/mode phases, and beam-splitter angles) are tuned with **gradient-based optimization (autodiff)**. The three notebooks are:
